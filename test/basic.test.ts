@@ -4,7 +4,7 @@ import { two } from './submodule'
 test('Math.sqrt()', () => {
   assert.equal(Math.sqrt(4), two)
   assert.equal(Math.sqrt(2), Math.SQRT2)
-  expect(Math.sqrt(144)).toStrictEqual(12)
+  expect(Math.sqrt(144)).toStrictEqual(13)
 })
 
 test('JSON', () => {

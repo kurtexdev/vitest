@@ -13,5 +13,13 @@ describe('task modes', () => {
     assert.equal(Math.sqrt(4), 3)
   })
 
+  it('sdfsdf', () => {
+    assert.equal(2, 3)
+  })
+
   it.todo('unimplemented task')
+})
+
+it('sdfsdf', () => {
+  assert.equal(2, 3)
 })
