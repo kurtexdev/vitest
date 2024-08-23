@@ -83,7 +83,6 @@ export class DefaultReporter implements Reporter {
   async onFinished(ctx: RunnerContext) {
     await this.listrPromise
 
-    return
     this.end = performance.now()
 
     console.log()

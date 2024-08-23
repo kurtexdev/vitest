@@ -1,8 +1,12 @@
 import { expect, test, assert, suite } from '../src'
 import { two } from './submodule'
 
+suite("xcvxcv", () => {
+})
+
 test('Math.sqrt()', () => {
   assert.equal(Math.sqrt(4), two)
+  throw new Error("xcvxcvxcv");
   assert.equal(Math.sqrt(2), Math.SQRT2)
   expect(Math.sqrt(144)).toStrictEqual(13)
 })
